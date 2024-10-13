@@ -28,7 +28,8 @@ import java.util.*;
 @Builder
 public class ReviewService {
 
-    private static final String OPENAI_API_KEY = ""; // Key cannot be pushed due to github violations
+    //Marking this  comment for the same
+   // private static final String OPENAI_API_KEY = ""; // Key cannot be pushed due to github violations
     private static final OkHttpClient client = new OkHttpClient();
     private static final ObjectMapper objectMapper = new ObjectMapper();
     private static final int MAX_RETRIES = 5;
