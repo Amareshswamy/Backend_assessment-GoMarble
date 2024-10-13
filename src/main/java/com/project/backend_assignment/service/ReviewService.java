@@ -28,7 +28,7 @@ import java.util.*;
 @Builder
 public class ReviewService {
 
-    private static final String OPENAI_API_KEY = "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"; // Replace with the actual key
+    private static final String OPENAI_API_KEY = ""; // Key cannot be pushed due to github violations
     private static final OkHttpClient client = new OkHttpClient();
     private static final ObjectMapper objectMapper = new ObjectMapper();
     private static final int MAX_RETRIES = 5;
